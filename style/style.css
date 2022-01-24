@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+html{
+    height: 100%;
+}
+
+
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#809FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    max-width: 700px; 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 90%;
+    overflow: hidden;
+}
+
+
+
+
+/* ....... */
+.site-head {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.site-head-img {
+    border-radius: 50%;
+    border: solid grey 1px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+
+
+
+
+.site-head-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+.site-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.site-main-h3 {
+    margin: 0;
+}
+
+
+
+
+.site-main-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.site-main-total-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+.site-footer-img {
+    margin-top:100px;
+    
+}
+
+
+
+/* ........2 */
+.site-head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.site-head-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+
+
+.site-main-h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
